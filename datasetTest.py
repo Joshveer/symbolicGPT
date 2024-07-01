@@ -147,7 +147,7 @@ def main():
     numVars = list(range(1,10)) #list(range(31)) #[1,2,3,4,5]
     decimals = 4
     numberofPoints = [20,250] # only usable if support points has not been provided
-    numSamples = 2500 // len(numVars) # number of generated samples
+    numSamples = 1000 // len(numVars) # number of generated samples
     folder = './Dataset'
     dataPath = folder +'/{}_{}_{}.json'
 

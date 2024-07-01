@@ -9,7 +9,6 @@ logging.basicConfig(
         level=logging.INFO,
 )
 
-# load libraries
 import os
 import glob
 import json
@@ -50,9 +49,9 @@ target = 'Skeleton' #'Skeleton' #'EQ'
 const_range = [-2.1, 2.1] # constant range to generate during training only if target is Skeleton
 decimals = 8 # decimals of the points only if target is Skeleton
 trainRange = [-3.0,3.0] # support range to generate during training only if target is Skeleton
-dataDir = 'D:/Datasets/Symbolic Dataset/Datasets/FirstDataGenerator/'  #'./datasets/'
-dataFolder = '1-9Var_RandSupport_FixedLength_-3to3_-5.0to-3.0-3.0to5.0_20-250'
-dataTestFolder = '1-9Var_RandSupport_FixedLength_-3to3_-5.0to-3.0-3.0to5.0_20-250/Test_Benchmarks'
+dataDir = '/Volumes/T7/Waterloo/symbolicGPT/datasets/Example1/'  #'./datasets/'
+dataFolder = 'Normal'
+dataTestFolder = '/Normal/Test'
 dataInfo = 'XYE_{}Var_{}-{}Points_{}EmbeddingSize'.format(numVars, numPoints[0], numPoints[1], embeddingSize)
 titleTemplate = "{} equations of {} variables - Benchmark"
 addr = './SavedModels/' # where to save model
