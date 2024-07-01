@@ -2,7 +2,7 @@
 **/.ipynb_checkpoints/*
 */.pyc
 **/Dataset/*
-**/datasets/*
+datasets/
 **/SavedModels/*
 **/OtherModelTests/*
 **/old/*
